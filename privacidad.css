@@ -1,0 +1,925 @@
+@import url("//fonts.googleapis.com/css?family=Work+Sans"); 
+* { 
+    box-sizing: border-box; 
+    outline: none; 
+    box-sizing: border-box; 
+    appearance: none; 
+    outline-color: initial; 
+    outline-style: none; 
+    outline-width: initial; 
+
+} 
+
+div { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.page__content { 
+    background-color: rgb(250,250,250); 
+    background-color: rgb(250, 250, 250);
+
+} 
+
+.page__content { 
+    flex: 1 1; 
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    flex-basis: 0%; 
+    display: flex; 
+    flex-direction: column;
+
+} 
+
+.page__body { 
+    display: flex; 
+    flex-direction: column; 
+    min-height: calc(100vh - 80px); 
+    display: flex; 
+    flex-direction: column; 
+    min-height: calc(100vh - 80px);
+
+} 
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+body { 
+    line-height: 1; 
+    line-height: 1;
+
+} 
+
+html { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+html { 
+    font-family: Work Sans,sans-serif; 
+    color: rgb(47,51,51); 
+    user-select: none; 
+    scroll-behavior: smooth; 
+    font-family: "Work Sans", sans-serif; 
+    color: rgb(47, 51, 51); 
+    user-select: none; 
+    scroll-behavior: smooth;
+
+} 
+
+.legal-page { 
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(250,250,250); 
+    text-align: left; 
+    padding: 80px 0; 
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(250, 250, 250); 
+    text-align: left; 
+    padding-top: 80px; 
+    padding-right: 0px; 
+    padding-bottom: 80px; 
+    padding-left: 0px;
+
+} 
+
+.legal-page__content { 
+    width: 800px; 
+} 
+
+.legal-page__content .language-selector__container  { 
+    display: flex; 
+    justify-content: flex-end; 
+    margin-left: -8px; 
+
+} 
+
+.markdown { 
+    line-height: 1.4; 
+} 
+
+ul { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+ul { 
+    list-style: none; 
+    list-style-position: initial; 
+    list-style-image: initial; 
+    list-style-type: none;
+
+} 
+
+li { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.language-selector__container > ul > li  { 
+    cursor: pointer; 
+    display: inline; 
+    padding: 0 8px; 
+    cursor: pointer; 
+    display: inline; 
+    padding-top: 0px; 
+    padding-right: 8px; 
+    padding-bottom: 0px; 
+    padding-left: 8px;
+
+} 
+
+.language-selector__container > ul > li + li  { 
+    border-left: 1px solid rgb(47,51,51); 
+    border-left-width: 1px; 
+    border-left-style: solid; 
+    border-left-color: rgb(47, 51, 51);
+
+} 
+
+.language-selector__container > ul > li.selected  { 
+    font-weight: 700; 
+    font-weight: 700;
+
+} 
+
+h2 { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.markdown h2  { 
+    font-weight: 700; 
+    font-size: 34px; 
+    margin-bottom: 24px; 
+    font-weight: 700; 
+    font-size: 34px; 
+    margin-bottom: 24px;
+
+} 
+
+h3 { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.markdown h3  { 
+    font-weight: 700; 
+    font-size: 20px; 
+    margin-bottom: 8px; 
+    font-weight: 700; 
+    font-size: 20px; 
+    margin-bottom: 8px;
+
+} 
+
+.markdown * + h3  { 
+    margin-top: 32px; 
+    margin-top: 32px;
+
+} 
+
+p { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.markdown p  { 
+    line-height: 1.5; 
+    line-height: 1.5;
+
+} 
+
+.markdown p + p  { 
+    margin-top: 16px; 
+    margin-top: 16px;
+
+} 
+
+h4 { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.markdown h4  { 
+    font-weight: 700; 
+    font-size: 16px; 
+    margin-bottom: 6px; 
+    font-weight: 700; 
+    font-size: 16px; 
+    margin-bottom: 6px;
+
+} 
+
+table { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    border-collapse: collapse; 
+
+} 
+
+.legal-page__content table  { 
+    font-size: 12px; 
+    font-size: 12px;
+
+} 
+
+strong { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+strong { 
+    font-weight: 700; 
+    font-weight: 700;
+
+} 
+
+thead { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+tbody { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+em { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.legal-page__content em  { 
+    font-style: italic; 
+    font-style: italic;
+
+} 
+
+tr { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+th { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.legal-page__content th  { 
+    font-weight: 700; 
+    font-weight: 700;
+
+} 
+
+.legal-page__content th  { 
+    padding: 20px 10px; 
+    border: 1px solid #dedede; 
+    text-align: left; 
+    vertical-align: middle; 
+    padding-top: 20px; 
+    padding-right: 10px; 
+    padding-bottom: 20px; 
+    padding-left: 10px; 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(222, 222, 222); 
+    border-right-color: rgb(222, 222, 222); 
+    border-bottom-color: rgb(222, 222, 222); 
+    border-left-color: rgb(222, 222, 222); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    text-align: left; 
+    vertical-align: middle;
+
+} 
+
+td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+.legal-page__content td  { 
+    padding: 20px 10px; 
+    border: 1px solid #dedede; 
+    text-align: left; 
+    vertical-align: middle; 
+    padding-top: 20px; 
+    padding-right: 10px; 
+    padding-bottom: 20px; 
+    padding-left: 10px; 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-left-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    border-left-style: solid; 
+    border-top-color: rgb(222, 222, 222); 
+    border-right-color: rgb(222, 222, 222); 
+    border-bottom-color: rgb(222, 222, 222); 
+    border-left-color: rgb(222, 222, 222); 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    text-align: left; 
+    vertical-align: middle;
+
+} 
+
+center { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+u { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    vertical-align: baseline; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    padding-top: 0px; 
+    padding-right: 0px; 
+    padding-bottom: 0px; 
+    padding-left: 0px; 
+    border-top-width: 0px; 
+    border-right-width: 0px; 
+    border-bottom-width: 0px; 
+    border-left-width: 0px; 
+    border-top-style: initial; 
+    border-right-style: initial; 
+    border-bottom-style: initial; 
+    border-left-style: initial; 
+    border-top-color: initial; 
+    border-right-color: initial; 
+    border-bottom-color: initial; 
+    border-left-color: initial; 
+    border-image-source: initial; 
+    border-image-slice: initial; 
+    border-image-width: initial; 
+    border-image-outset: initial; 
+    border-image-repeat: initial; 
+    vertical-align: baseline;
+
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .legal-page__content {
+        width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .legal-page__content {
+        width: 90%;
+    }
+}
